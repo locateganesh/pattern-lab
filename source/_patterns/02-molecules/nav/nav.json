@@ -1,0 +1,50 @@
+{
+    "logo":{
+        "modifier":"header--logo",
+        "logoImg": "company <span>logo</span>"
+    },
+    "topNav":[
+        {
+            "slug": "#", 
+            "text":"About",
+            "hasPopup":"true",
+            "hasSubmenu": "nav--has-submenu",
+            "submenu": [
+                { "slug": "#", "text": "Our Story" },
+                { "slug": "#", "text": "Why Copmany" },
+                { "slug": "#", "text": "Success Stories" },
+                { "slug": "#", "text": "Careers" }
+            ]
+        },    
+        { 
+            "slug": "#", 
+            "text": "Services", 
+            "hasPopup":"true",
+            "hasSubMenu": "nav--has-submenu", 
+            "submenu":[
+                { "slug": "#", "text": "Staffing" },
+                { "slug": "#", "text": "Delivery Support" },
+                { "slug": "#", "text": "Project Management" }
+            ] 
+        },
+        { 
+            "slug": "#", 
+            "text": "Solutions", 
+            "hasPopup":"true",
+            "hasSubMenu": "nav--has-submenu", 
+            "submenu":[
+                { "slug": "#", "text": "CMS Solutions" },
+                { "slug": "#", "text": "DevOps" },
+                { "slug": "#", "text": "Marketing" },
+                { "slug": "#", "text": "Quality Assurance" }
+            ] 
+        },
+        { 
+            "slug": "#", 
+            "text": "Blog", 
+            "hasPopup":"false",
+            "hasSubMenu": "nav--has-submenu", 
+            "submenu":[] 
+        }
+    ]
+}

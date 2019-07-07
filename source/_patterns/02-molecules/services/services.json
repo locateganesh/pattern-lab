@@ -1,0 +1,20 @@
+{
+    "title":"Integer bibendum sit amet  arcu vel egestas.",
+    "services":[
+        {
+            "class":"banner_service--icon1",
+            "imgAria":"A icon with some people standing and a check at front on them. All are in red color",
+            "text":"Service Name"
+        },
+        {
+            "class":"banner_service--icon2",
+            "imgAria":"A icon with half gear look like a table and 3 people are behind it. All in red color",
+            "text":"Service Name"
+        },
+        {
+            "class":"banner_service--icon3",
+            "imgAria":"A icon with folder outline with a gear in circle at bottom right. All are in red color",
+            "text":"Service Name"
+        }
+    ]
+}

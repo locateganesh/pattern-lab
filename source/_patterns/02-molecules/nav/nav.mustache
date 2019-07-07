@@ -1,0 +1,13 @@
+<ul id="mainNav" class="nav__list" aria-hidden="false">
+    {{#topNav}}
+    <li class="nav__item {{hasSubmenu}}" aria-haspopup="{{hasPopup}}"><a href="{{{slug}}}">{{{text}}} {{#submenu.length}}{{> atoms-nav-arrow}}{{/submenu.length}}</a>
+       {{#submenu.length}}
+        <ul class="nav__sub-list" data-test="true" aria-hidden="true">
+            {{#submenu}}
+            <li><a href="{{{slag}}}" tabindex="-1">{{{text}}}</a></li>
+            {{/submenu}}
+        </ul>
+       {{/submenu.length}}
+    </li>
+    {{/topNav}} 
+</ul>

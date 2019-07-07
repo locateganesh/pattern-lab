@@ -1,0 +1,19 @@
+<div class="form-max">
+    <form class="work-form d-flex flex-wrap" role="form" aria-label="form">
+        {{#input}}
+        <div class="work-form__group">
+            {{> atoms-input}}
+        </div>
+        {{/input}}
+        <div class="work-form__group work-form--mod4">
+        {{#textarea}}
+            {{> atoms-textarea}}
+        {{/textarea}}    
+        </div>
+        <div class="work-form__submit work-form--mod5">
+        {{#button}}
+            {{> atoms-buttons}}
+        {{/button}}    
+        </div>
+    </form>
+</div>

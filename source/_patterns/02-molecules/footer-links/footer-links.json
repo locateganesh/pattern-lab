@@ -1,0 +1,10 @@
+{
+    "year":"2017",
+    "company":"Company",
+    "socialLinks":[
+        {"links":"social-list__fb"},
+        {"links":"social-list__linkedin"},
+        {"links":"social-list__twitter"},
+        {"links":"social-list__email"}
+    ]
+}

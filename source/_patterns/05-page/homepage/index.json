@@ -1,0 +1,141 @@
+{
+    "header":{
+        "headerLogo":{
+            "modifier":"header--logo",
+            "logoImg": "company <span>logo</span>"
+        },
+        "topNav":[
+            {
+                "slug": "#", 
+                "text":"About",
+                "hasPopup":"true",
+                "hasSubmenu": "nav--has-submenu",
+                "submenu": [
+                    { "slug": "#", "text": "Our Story" },
+                    { "slug": "#", "text": "Why Copmany" },
+                    { "slug": "#", "text": "Success Stories" },
+                    { "slug": "#", "text": "Careers" }
+                ]
+            },    
+            { 
+                "slug": "#", 
+                "text": "Services", 
+                "hasPopup":"true",
+                "hasSubmenu": "nav--has-submenu", 
+                "submenu":[
+                    { "slug": "#", "text": "Staffing" },
+                    { "slug": "#", "text": "Delivery Support" },
+                    { "slug": "#", "text": "Project Management" }
+                ] 
+            },
+            { 
+                "slug": "#", 
+                "text": "Solutions", 
+                "hasPopup":"true",
+                "hasSubmenu": "nav--has-submenu", 
+                "submenu":[
+                    { "slug": "#", "text": "CMS Solutions" },
+                    { "slug": "#", "text": "DevOps" },
+                    { "slug": "#", "text": "Marketing" },
+                    { "slug": "#", "text": "Quality Assurance" }
+                ] 
+            },
+            { 
+                "slug": "#", 
+                "text": "Blog", 
+                "hasPopup":"false",
+                "hasSubmenu": "", 
+                "submenu":[] 
+            }
+        ],
+        "getInTouch":{
+            "tag": "a",
+            "link":"#",
+            "modifier": "btn--a btn--icon btn--mobile-icon",
+            "text":"Get In Touch",
+            "iconPath":"../../images/chat.svg" 
+        }
+    },
+    "footer":{
+        "year":"2017",
+        "company":"Company",
+        "socialLinks":[
+            {"links":"social-list__fb"},
+            {"links":"social-list__linkedin"},
+            {"links":"social-list__twitter"},
+            {"links":"social-list__email"}
+        ]
+    },
+    "homeBanner":{
+        "title":"Integer bibendum sit amet  arcu vel egestas.",
+        "services":[
+            {
+                "class":"banner_service--icon1",
+                "imgAria":"A icon with some people standing and a check at front on them. All are in red color",
+                "text":"Service Name"
+            },
+            {
+                "class":"banner_service--icon2",
+                "imgAria":"A icon with half gear look like a table and 3 people are behind it. All in red color",
+                "text":"Service Name"
+            },
+            {
+                "class":"banner_service--icon3",
+                "imgAria":"A icon with folder outline with a gear in circle at bottom right. All are in red color",
+                "text":"Service Name"
+            }
+        ]
+    },
+    "homeAbout":{
+        "role":"about",
+        "title":"Mauris id bibendum est. Proin dapibus sollicitudin iaculis, Maecenas condimentum maximum loreet.",
+        "title_modifier":"",
+        "para":"Etiam euismod augue sed enim vulputate, rutrum fermentum tortor finibus. Integer ut augue in quam commodo bibendum vel a purus. Nunc eu nulla feugiat, luctus dui nec, consequat lectus. Praesent interdum pretium pellentesque. Sed sem enim, facilisis nec euismod ut, lobortis sed felis. Cras et purus sed magna tempor efficitur. Nam imperdiet placerat eros non placerat. Donec id lacus ligula. Vivamus porta tempor convallis. Cras iaculis feugiat dolor, sed consequat est gravida nec. In id augue non nibh eleifend luctus. Donec lobortis et enim quis sodales. Vestibulum et lorem lacus.",
+        "image":"about-map.jpg",
+        "img_modifier":""
+    },
+    "testimonial":{
+        "role":"testimonial",
+        "title":"Testimonials",
+        "title_modifier":"tac",
+        "list":[
+            {
+                "text":"Mauris at quam at mauris venenatis eleifend. Nullam eleifend odio a pretium dignissim. Aenean non rhoncus quam.",
+                "image":"testimonial-author-placeholder.png",
+                "alt":"Testimonial author image",
+                "name":"Clinet Name 1",
+                "position":"Position, ORG"
+            },
+            {
+                "text":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.",
+                "image":"testimonial-author-placeholder.png",
+                "alt":"Testimonial author image",
+                "name":"Clinet Name 2",
+                "position":"Position, ORG"
+            },
+            {
+                "text":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.",
+                "image":"testimonial-author-placeholder.png",
+                "name":"Clinet Name 3",
+                "position":"Position, ORG"
+            }
+        ]
+    },
+    "quickForm":{
+        "role":"contact",
+        "title":"Convinced To Work With&nbsp;Us?",
+        "title_modifier":"",
+        "para":"Company has helped agencies keep their promises to clients since 2005.", 
+        "input":[
+            {"type":"text", "modifier":"", "name": "", "id":"", "placeholder":"Fullname"},
+            {"type":"email", "modifier":"", "name": "", "id":"", "placeholder":"Email Address"},
+            {"type":"tel", "modifier":"", "name": "", "id":"", "placeholder":"Phone Number"}
+        ],
+        "textarea":[
+            {"modifier": "work-form__input--textarea", "name": "", "id": "", "placeholder": "Message in brief"}
+        ],
+        "button":[
+            { "type": "Submit", "modifier": "btn--big", "id": "", "text": "Submit"}
+        ]
+    }
+}

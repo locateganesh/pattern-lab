@@ -1,0 +1,20 @@
+<div class="testimonials grid--repeat3 d-grid" aria-label="Testimonials">
+    {{#list}}
+    <div class="testimonial__box">
+        <div class="testimonial__boxin">
+            <div class="testimonial__card">
+                {{> atoms-blogquote}}
+            </div>
+            <div class="testimonial__author">
+                <div class="d-flex align-center">
+                    <div>{{> atoms-blog_image}}</div>
+                    <div class="testimonial__author-about">
+                        <h4 class="testimonial__author-name">{{{name}}}</h4>
+                        <span class="testimonial__author-position">{{{position}}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/list}}
+</div>

@@ -1,0 +1,43 @@
+
+<div class="page" id="page">
+    <!-- HEADER -->
+    {{#header}}
+        {{> organisms-header}} 
+    {{/header}}
+    <!-- HEADER -->
+  
+    <main>
+        <!-- Section 1 -->
+        {{#homeBanner}}
+            {{> organisms-banner}} 
+        {{/homeBanner}}
+        <!-- Section 1 -->
+
+        <!-- SECTION 2 -->
+        {{#homeAbout}}
+            {{> organisms-two_column}}
+        {{/homeAbout}}
+        <!-- SECTION 2 -->
+        
+        <!-- SECTION 3 -->
+        {{#testimonial}}
+            {{> organisms-grey_section}}
+        {{/testimonial}}
+        <!-- SECTION 3 -->
+
+        <!-- SECTION 5 -->
+        {{#quickForm}}
+            {{> organisms-image_section}} 
+        {{/quickForm}}
+        <!-- SECTION 5 -->
+        
+    </main>
+
+    <!-- FOOTER -->
+    {{#footer}}
+        {{> organisms-footer}}
+    {{/footer}}
+    <!-- FOOTER -->
+  
+</div>
+

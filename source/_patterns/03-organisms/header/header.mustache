@@ -1,0 +1,22 @@
+<header class="header" role="header">
+    <div class="container">
+        <div class="d-flex justify-between align-center">
+            <div id="js-menuToggle" class="hamburger" role="hamburger" aria-hidden="true">
+                <div class="hamburger__inner"><span class="hamburger__bar1"></span><span class="hamburger__bar2"></span><span class="hamburger__bar3"></span></div>
+            </div>
+            <div>
+                {{#headerLogo}}
+                    {{> atoms-logo}}
+                {{/headerLogo}}
+            </div>
+            <nav class="nav d-flex align-center" role="navigation" aria-label="Main menu">
+                {{> molecules-nav}}
+                <div>
+                    {{#getInTouch}}
+                        {{> atoms-icon_buttons}} 
+                    {{/getInTouch}}
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
