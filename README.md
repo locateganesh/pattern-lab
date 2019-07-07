@@ -1,2 +1,2 @@
-# pattern-lab
+# Pattern Lab
 Pattern lab using mustache
